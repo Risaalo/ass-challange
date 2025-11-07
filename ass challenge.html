@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Challenge</title>
+</head>
+<body>
+    <script>
+        // Create an array with the values ["Abdi", "Ali"]
+        let names = ["Abdi", "Ali"];
+
+        // Add "Ahmed" to the end of the array
+        names.push("Ahmed");
+
+        // Add "Haashi" to the beginning of the array
+        names.unshift("Haashi");
+
+        // Remove the last element from the array
+        names.pop();
+
+        // Display the final array in the console
+        console.log(names)
+
+     
+        //create two arrays
+        let a=[1,2]
+        let b=[3,4]
+        //combine both arrays into one using the spread operator
+        let combined=[...a,...b]
+        //remove the first element from the combined array
+        combined.shift()
+        //add the number 5 to the end of the array
+        combined.push(5)
+        //display the final array in the console
+        console.log(combined)
+    </script>
+</body>
+</html>
